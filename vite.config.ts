@@ -12,6 +12,7 @@ export default defineConfig({
       remotes: {
         xo: 'https://xo.alanlai.app/assets/remoteEntry.js',
         pairs: 'https://pairs.alanlai.app/assets/remoteEntry.js',
+        hangman: 'https://hangman.alanlai.app/assets/remoteEntry.js',
       },
       shared: ['react', 'react-dom'], 
     })

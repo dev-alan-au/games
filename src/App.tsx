@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Xo from 'xo/App';
 import Pairs from 'pairs/App';
+import Hangman from 'hangman/App';
 
 import Layout from './Layout';
 import Home from './Home';
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="xo" element={<Xo />} />
           <Route path="pairs" element={<Pairs />} />
+          <Route path="hangman" element={<Hangman />} />
         </Route>
       </Routes>
     </BrowserRouter>

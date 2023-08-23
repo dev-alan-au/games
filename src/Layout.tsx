@@ -8,6 +8,7 @@ export default function Layout() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/xo">Naughts and Croxxes</Link></li>
           <li><Link to="/pairs">Pairs</Link></li>
+          <li><Link to="/hangman">Hang Man</Link></li>
         </ul>
       </nav>
       <main>
