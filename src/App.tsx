@@ -1,10 +1,20 @@
-import { lazy } from 'react';
-const Xo = lazy(() => import('xo/App'));
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Layout from './Layout';
+import Home from './Home';
+import Xo from 'xo/App';
 
 function App() {
   return (
     <>
-      <Xo />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="xo" element={<Xo />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
