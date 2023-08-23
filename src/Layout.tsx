@@ -9,6 +9,7 @@ export default function Layout() {
           <li><Link to="/xo">Naughts and Croxxes</Link></li>
           <li><Link to="/pairs">Pairs</Link></li>
           <li><Link to="/hangman">Hang Man</Link></li>
+          <li><Link to="/scissors-paper-rock">Scissors Paper Rock</Link></li>
         </ul>
       </nav>
       <main>
