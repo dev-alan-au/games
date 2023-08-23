@@ -10,7 +10,8 @@ export default defineConfig({
       name: 'host',
       filename: 'remoteEntry.js',
       remotes: {
-        xo: 'https://xo.alanlai.app/assets/remoteEntry.js'
+        xo: 'https://xo.alanlai.app/assets/remoteEntry.js',
+        pairs: 'https://pairs.alanlai.app/assets/remoteEntry.js',
       },
       shared: ['react', 'react-dom'], 
     })

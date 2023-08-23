@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Xo from 'xo/App';
+import Pairs from 'pairs/App';
 
 import Layout from './Layout';
 import Home from './Home';
-import Xo from 'xo/App';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="xo" element={<Xo />} />
+          <Route path="pairs" element={<Pairs />} />
         </Route>
       </Routes>
     </BrowserRouter>
